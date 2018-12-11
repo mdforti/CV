@@ -1,0 +1,116 @@
+\documentclass[12pt,a4paper]{my_cv}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\urlstyle={same}
+\usepackage{titlesec}
+\titleformat{\subsection}[runin]
+{\normal\scshape}{}{1em}
+\begin{document}
+\title{Mariano Daniel Forti}
+
+\begin{titlepage}
+\maketitle
+
+\begin{abstract}
+
+    I am currently a researcher at Comisión Nacional de Energía Atómica, Argentina. My activities are carried on at División Aleaciones Especiales (Special Alloys Division) where I started working as a specialist in DFT calculations in 2017. My research is about mechanical stability of interfacial systems, mainly in the Iron/Magnetite interface and more recently the $Zr / ZrO_{2}$ system as well. I also participate actively in other activities carried on in the group, where we study point defects in $ZrO_2$.
+
+Since my graduation as an Engineer I also work as a teaching assistant in an advanced course about the Finite Element Method for the Materials Engineering program at Instituto Sabato.
+
+In September 2017 I completed the requirements to obtain the Doctorado en Ciencia y Tecnología (Doctorate in Science and Technology, Ph.D. ) at Universidad de San Martín. My degree studies are in Materials Engineering. Since the Final Work to get The Engineering degree I have been working in DFT calculations based on VASP, applied to surface and interfacial systems.
+
+After obtaining my PhD in 2017, I started collaborating with the Special Alloy Foundry in Comisión de Energía Atómica in the preparations for the qualifications of the fabrication processes of alloys used in security components in Nuclear Power Plants. I also Assist the Foundry Staff in scientific basis for process optimization, quality assurance and technical decision taking. My responsibilities at DAE also include the maintenance of two private (though rather small) Linux computing clusters owned by DAE. Hence, during my professional career, I have acquired a wide experience in Linux System Administration for deskop and High Performance Computing Clusters. My programming skills include a variety of languages including Bash, Fortran, Python, php and javascript, and I also have wide experience in Matlab and Octave environments. I make a daily use of other tools as vim, OriginLab and gnuplot. In particular, I am an user and enthusiast of open source tools as the KDE desktop and the LibreOffice suite. 
+
+
+\end{abstract}
+
+\end{titlepage}
+
+\section{Profesional Experience}
+
+\subsection{February 2017 - Current.} Comisión Nacional de Energía Atómica. Gerencia Materiales. División Aleaciones Especiales. Advisor: Dr. Paula Alonso (pralonso@cnea.gov.ar). Position: Researcher. Density Functional Theory calculations in interfacial systems: $Fe / Fe_3O_4$, $Zr/ZrO_2$. Point Defects in $ZrO_2$. Linux System Administration in Desktop and Cluster Computers for High Performance Calculations. Daily use of Bash, Fortran and Python. Scientific support for Special Alloy Foundry including quality assurance.
+
+\subsection{August 2010 – Current.} Teaching assistant at Instituto Sabato (UNSaM\-CNEA), Ayudante de 1ra. “Computer Simulation of Processes and Materials”. Professor: Ruben Weht (ruweht@cnea.gov.ar). In this course students make their own implementation of several numerical methods for solving differential equations including Finite Differences and Finite Elements.
+
+\subsection{August 2010 – January 2017.} Comisión Nacional de Energía Atómica. Gerencia Materiales. División Aleaciones Especiales. Full Time Scolarship, “ Ab\-Initio studies about adhesion in iron/magnetite interfaces”. Advisor: Dr. Paula Alonso (pralonso@cnea.gov.ar). Research and development activities. Linux System Administration in Desktop and Cluster Computers for High Performance Calculations. Daily use of Bash, Fortran and Python. 
+
+\subsection{August 2006- August 2010.} Instituto de Tecnología Jorge Sabato (ITJS, UNSAM-CNEA). Materials Engineering. Full Time Scolarship. 
+
+\subsection{January 2010 – July 2010.} Final Work to get the Materials Engineering Degree. Department of Chemical Engineering, Texas A\&M University, USA. “Ab-Initio Studies about Carburization of Fe3Al Based Alloys”. Advisor: Dr. Perla Balbuena (balbuena@tamu.edu). 
+
+\subsection{February 2008.} Internship at Gerencia Física, CNEA. “Synthesis and Mechanical Properties of Manganite / Polymer composites”. Reference: Griselda Polla (grispoll@cnea.gov.ar)
+
+\subsection{February 2007.} Internship at Condensed Matter Group, CNEA. “Eléctric and Magnetic Properties of Manganites/Polymer Composites”. Reference: Joaquín Sacanell (sacanell@cnea.gov.ar). 
+
+\section{Participation in research projects}
+
+\subsection{February 2017 – February 2020.}PICT-2015-2267, “In the search for a new alloy for fuel elements of the CAREM-25 Power Plant” Comisión Nacional de Energía Atómica, Agencia Nacional de Promoción Científica y Tecnológica, Ministerio de Ciencia, Técnica e innovación Productiva.
+
+\subsection{January 2017 – December 2019.}Project 80020160500046SM, “In the search for anewalloy for fuelelementsoftheCAREM-25PowerPlant”.InstitutoSabato, Universidad de San Martin, Comisión Nacional de Energía Atómica, Ministerio de Ciencia, Técnica e Innovación Productiva.
+
+\subsection{August 2011- August 2015.} PICT-2011-1861, “Power Nuclear Reactor’s Materials integrity. Atomistic / Continuum models applied to inter-diffusion in disperse fuels and fracture in the oxide scales in steel pipes”. Ministerio de Ciencia, Técnica e Innovación Productiva. 
+
+\subsection{January 2011 – December 2012.} Project UNSAM C063, “Pasivating oxide scale over iron”. Proyecto Universidad Nacional de San Martin. 
+
+ \subsection{January 2011 – December 2011.} “Constitutional Defects and Aluminum Migration Energy in $UAl_4$”. Fundación Balseiro andComisión Nacional de Energía Atómica. 
+
+\subsection{August 2010 – December 2015.} “Prespective studies, research and development of technologies for nuclear power plants of the fourth generation” Comision Nacinoal de Energía Atómica.
+
+ \subsection{January 2010 - December 2012.} “Computational Methods applied to the study of physical and chemical properties of fuel elements in research reactors, and modelization of defect cluster migrations in technologiacl materials” CONICET.
+
+\section{Publications}
+
+“Shear Behavior of $Fe/Fe_3O_4$ interfaces”. Revista Materia V23-N2 (2018). Mariano Forti, Paula Alonso, Pablo Gargano, Gerardo Rubiolo. 
+
+“Properties of hexagonal $Zr$ and tetragonal $ZrO_2$ low index surfaces from DFT calculations”. Revista Materia V23-N2 (2018). Paula Alonso, Pablo Gargano, Laura Kniznik, Gerardo Rubiolo. 
+
+“Concentration of constitutional and thermal defects in $UAl_4$ ” Journal of Nuclear Materials 478 (2016) 74-82. Pablo Gargano, Laura Kniznik, Paula Alonso, Mariano Forti, Gerardo Rubiolo.
+
+“A DFT study of atomic structure and adhesion at the $Fe(BCC)/Fe_3 O_4$ interfaces”. Surface Science 647 (2016) 55–65. Mariano Forti, Paula Alonso, Pablo Gargano,Perla Balbuena, Gerardo Rubiolo.
+
+“Charge difference calculation in $Fe/Fe_3O_4$ interfaces from DFT results”. Procedia Materials Science 8 (2015) pp 1066 – 1072. Diego Tozini, Mariano Forti, Paula Alonso, Pablo Gargano, Gerardo Rubiolo.
+
+“Adhesion Energy of the $Fe(BCC)/Magnetite$ Interface within the DFT approach”. Procedia Materials Science 9 (2015) pp 612 – 618. Diego Tozini, Mariano Forti, Pablo Gargano, Paula Alonso, Gerardo Rubiolo. 
+
+“Ab-initio studies on carburization of Fe 3 Al based alloys”. Procedia Materials Science 1 ( 2012 ) 191 – 198. Mariano Forti, Perla Balbuena, Paula Alonso.
+
+ “First principles study of $U-Al$ system ground state”. Procedia Materials Science 1 ( 2012 ) 514 –519. Laura Kniznik, Paula R. Alonso, Pablo H. Gargano, Mariano D. Forti, Gerardo H. Rubiolo.
+
+“Transition metals monoxides. An LDA+U study”. Procedia Materials Science 1 ( 2012 ) 230 – 234. Mariano Forti, Paula R. Alonso, Pablo H. Gargano, Gerardo H. Rubiolo.
+
+“Electric and magnetic properties of PMMA/manganite composites”. Physica B 404 (2009) 2760– 2762. Artale, C., Fermepin, S., Latino, M., Quintero, M., Granja, L., Sacanell, J., Polla G., Levy P. 
+
+\section{Participation in Congress}
+
+\subsection{October 2018.} 5th Nuclear Materials Conference, Elsevier – IAEA, 14-18 October 2018, Seattle, USA. Poster Presentations: 1) “First-principles thermodynamic study of point-defect structure and electrical conductivity in tetragonal non-stoichiometric zirconia including lattice vibrations”, Gargano, Kniznik, Alonso, Forti, Rubuiolo. 2) “DFT Study of the Early Stages of Oxidation of the Zr(1010) Surface”, F. Soto, M. Forti, P. Alonso, P. Gargano, L. Kniznik, G. Rubiolo, P. Balbuena. 3) “A DFT study of the resistance to traction and shear loads of the $Fe(BCC) / Fe_3O_4$ interface”, M.Forti, P. Alonso, P. Gargano, L. Kniznik, G. Rubiolo. \url{https://www.elsevier.com/events/conferences/the-nuclear-materials-conference}.
+
+\subsection{November 2016.} 16º SAM-CONAMET. “Shear stress in Fe/Fe 3 O4 interfaces”. Sociedad Argentina de Materiales. \url{http://sam-conamet2016.congresos.unc.edu.ar/}
+
+\subsection{October 2014.} 14th SAM-CONAMET. “Charge difference calculation in $Fe/Fe_3O_4_$ interfaces from DFT results”. Sociedad Argentina de Materiales. \url{http://www.unl.edu.ar/materiales2014/}
+
+\subsection{March 2014.} Workshop en Procesamiento Físico Químico Avanzado. Workshop, 11 – 15 March 2014, Universidad Nacional de Santander, Piedecuesta, Colombia. Invited speaker. a) “Vasp Workshop”, b) “Mechanical Properties from DFT Calculations”. 
+ http://www.sc3.uis.edu.co/pfqa-procesos-fisico-quimicos-avanzados/.
+
+\subsection{August 2013.} 13th SAM-CONAMET. “DFT Approximation to the Adhesion Energy of the Fe(BCC)/Magnetite Interface”. Sociedad Argentina de Materiales, Puerto Iguazú, Misiones, Argentina.
+
+\subsection{November 2012.} XXXIX Reunión Anual de la Asociación Argentina de Tecnología Nuclear.
+“Atomistic Model of the Adhesion Problem in Magnetite /iron system”. Asociación Argentina de Tecnología Nuclear. Buenos Aires, Argentina.
+
+\subsection{October 2012.} 4º Meeting of young researchers in Cience And Technology. “Spin-Orbit Coupling effect on bandstructure of Iron monoxide in GGA+U approximation”. Sociedad Argentina de Materiales, Mar del Plata, Buenos Aires, Argentina. 
+
+\subsection{October 2012.} 12th CONAMET/SAM “DFT study on adhesion energy in Fe/Fe3O3 ubterface”. Universidad Técnica Federico Santa María, CONAMET-SAM, Valparaíso, Chile. May 2012. 12th Anual Meeting of the Nuclear Fuel Division. “Predicting toughness in Fe/Magnetite interfaces based in First Principle calculations”. Centro Atómico Constituyentes, Comisión Nacional de Energía Atómica. Buenos Aires, Argentina. 
+
+\subsection{January 2012.} Pan American Advanced Institute, Computational Materials Science for Energy Generation and Conversion. Santiago De Chile, Chile. (Workshop, \url{http://www.cnf.cornell.edu/cnf\_pasi2012.html} ) 
+
+\subsection{October 2011.} SAM / CONAMET 2011, Rosario, Argentina. “Ab Initio Studies on carburization in Fe3Al based alloys” (\url{ http://www.ifir-conicet.gov.ar/SAM-ONAMET2011/documentos/topico6/215-161-1-SP.pdf } ). 
+
+\subsection{December 2008.} At The Frontiers of Condensed Matter IV. "Electric and Magnetic properties of PMMA/Manganite composites". 
+
+\subsection{September 2008.} Asociación de Física Argentina. "Electric and Magnetic properties of PMMA/Manganite composites". 
+
+\section{Advisories}
+\section{Education}
+\section{Other Academic Activities.}
+\section{Awards}
+
+\end{document}
