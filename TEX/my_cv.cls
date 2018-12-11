@@ -11,7 +11,7 @@
 % Customise the \section command 
 \titleformat{\section} 
 {\Large\scshape\raggedright} 
-  {}{1em}{\colorbox}[\titlerule] 
+  {}{1em}{}[\titlerule] 
 %subsection headers
 \titleformat{\subsection}[runin]
   {\bfseries}{}{1em}{}
