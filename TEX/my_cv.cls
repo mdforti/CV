@@ -6,12 +6,23 @@
 \RequirePackage{indentfirst}
 
 % allow to modify te section titles
+\RequirePackage{xcolor}
 \RequirePackage{titlesec}
 % Section headers
 % Customise the \section command 
-\titleformat{\section} 
-{\Large\scshape\raggedright} 
-  {}{1em}{\colorbox}[\titlerule] 
+\titleformat{name=\section}[block]
+  {\color{white}\scshape\large}
+  {}
+  {0pt}
+  {\colorsection}
+\titlespacing*{\section}{0mm}{1.5cm}{0.1cm}
+\titlespacing*{\subsection}{0mm}{0.2cm}{\baselineskip}
+
+\newcommand{\colorsection}[1]{%
+  \colorbox{black}{\parbox{\dimexpr\textwidth-2\fboxsep}{\strut {#1}}}
+}
+
+
 %subsection headers
 \titleformat{\subsection}[runin]
   {\bfseries}{}{1em}{}
