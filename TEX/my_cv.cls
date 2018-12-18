@@ -11,7 +11,7 @@
 % Section headers
 % Customise the \section command 
 \titleformat{name=\section}[block]
-  {\color{white}\scshape\large}
+{\color{white}\scshape\large\filcenter}
   {}
   {0pt}
   {\colorsection}
