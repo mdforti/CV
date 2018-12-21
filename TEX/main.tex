@@ -1,0 +1,40 @@
+%{main}
+\documentclass{my_cv}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{titlesec}
+\usepackage[]{hyperref}
+\hypersetup{
+    pdftitle={Resume},
+    pdfauthor={Mariano Forti},
+    pdfsubject={Mariano Forti Curriculum Vitae},
+    pdfkeywords={Mariano Forti, Researcher, DFT, FEM, linux, programmer},
+    bookmarksnumbered=false,     
+    bookmarksopen=true,         
+    bookmarksopenlevel=1,       
+    colorlinks=false,            
+    pdfstartview=Fit,           
+    pdfpagemode=UseOutlines,    % this is the option you were lookin for
+    pdfpagelayout=TwoPageRight
+}
+
+\urlstyle{same}
+\title{Mariano Daniel Forti}
+\date{\centering \small{Contact: \hspace{3cm} \url{mforti@cnea.gov.ar} \hspace{3cm} \url{marianodforti@gmail.com}}}
+
+
+
+\begin{document}
+\maketitle
+
+\input{SECTIONS/titlepage.tex}
+%\input{SECTIONS/Profesional_Experience}
+%\input{SECTIONS/Publications}
+%\input{SECTIONS/Participation_in_Congress}
+%\input{SECTIONS/Participation_in_research_projects}
+%\input{SECTIONS/Advisories}
+%\input{SECTIONS/Education}
+%\input{SECTIONS/Awards}
+%\input{SECTIONS/Other_Academic_Activities.}
+
+\end{document}
