@@ -15,20 +15,23 @@
   {}
   {0pt}
   {\colorsection}
-\titlespacing*{\section}{0mm}{1.5cm}{0.1cm}
-\titlespacing*{\subsection}{0mm}{0.2cm}{\baselineskip}
+\titlespacing*{\section}{5mm}{1.5cm}{0.1cm}
 
 \newcommand{\colorsection}[1]{%
-  \colorbox{black}{\parbox{\dimexpr\textwidth-2\fboxsep}{\strut {#1}}}
+  \colorbox{black}{\parbox{\dimexpr\textwidth-2\fboxsep}{\centering \strut { #1}}}
 }
 
 
 %subsection headers
 \titleformat{\subsection}[runin]
   {\bfseries}{}{1em}{}
+\titlespacing*{\subsection}{5mm}{0.2cm}{\baselineskip}
 %second level section headers. 
+
+% \RequirePackage{ulem}
 \titleformat{\subsubsection}[runin]
-  {\bfseries}{}{1em}{}
+  {\normalfont}{}{1em}{\emph}
+\titlespacing*{\subsubsection}{0mm}{0.1cm}{\baselineskip}
 
 % change margins
 \RequirePackage[margin=1.5cm]{geometry}
