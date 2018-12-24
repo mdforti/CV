@@ -6,7 +6,7 @@
 \RequirePackage{indentfirst}
 
 % allow to modify te section titles
-\RequirePackage{xcolor}
+\RequirePackage[dvipsnames]{xcolor}
 \RequirePackage{titlesec}
 % Section headers
 % Customise the \section command 
@@ -18,7 +18,7 @@
 \titlespacing*{\section}{5mm}{1.5cm}{0.1cm}
 
 \newcommand{\colorsection}[1]{%
-  \colorbox{black}{\parbox{\dimexpr\textwidth-2\fboxsep}{\centering \strut { #1}}}
+\colorbox{Fuchsia}{\parbox{\dimexpr\textwidth-2\fboxsep}{\centering \strut { #1}}}
 }
 
 
