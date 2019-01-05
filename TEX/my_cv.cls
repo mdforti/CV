@@ -61,3 +61,6 @@
 \urlstyle{same}
 
 \usepackage[utf8]{inputenc}
+
+%\RequirePackage{titling}
+%\pretitle{\scshape}
