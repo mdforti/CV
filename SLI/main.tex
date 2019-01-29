@@ -1,17 +1,29 @@
 \documentclass{beamer}
 \usepackage{amsmath}
 \mode<presentation>
-\title{Why I am the best candidate}
+
+\AtBeginSection[]{
+\begin{frame}
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}\insertsectionhead\par%
+\end{beamercolorbox}
+\vfill
+\end{frame}
+}
+
+\title{An Outline of My Activities}
 \author{Mariano Forti}
-\date{2018}
+\date{2019}
 
 \begin{document}
 
 \begin{frame}
 \titlepage
-\begin{block}
+\begin{center}
   Interview details here
-\end{block}
+\end{center}
 
 \end{frame}
 
@@ -27,5 +39,12 @@
 \include{./02-CurrentResearch/0201}
 \include{./02-CurrentResearch/0202}
 \include{./02-CurrentResearch/0203}
+\include{./02-CurrentResearch/0204}
+
+\section{Teaching}
+\include{./03-Teaching/0301}
+
+\section{Other Skills}
+\include{./04-OtherSkills/0401}
 
 \end{document}
