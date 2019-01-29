@@ -1,1 +1,5 @@
-\beamer@sectionintoc {1}{Who am I?}{3}{0}{1}
+\beamer@sectionintoc {1}{Who am I}{2}{0}{1}
+\beamer@subsectionintoc {2}{1}{Scientific support to Special Alloys Foundry}{3}{0}{2}
+\beamer@sectionintoc {2}{Current Research}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{ Zr($10\mathaccentV {bar}016{1}0$) surface.}{4}{0}{2}
+\beamer@subsectionintoc {2}{3}{Adhesion of Metal Oxide Interfaces}{6}{0}{2}

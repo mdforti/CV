@@ -1,4 +1,5 @@
 \documentclass{beamer}
+\usepackage{amsmath}
 \mode<presentation>
 \title{Why I am the best candidate}
 \author{Mariano Forti}
@@ -6,6 +7,25 @@
 
 \begin{document}
 
-\include{FRAMES/title}
-\include{FRAMES/01-WHOIAM}
+\begin{frame}
+\titlepage
+\begin{block}
+  Interview details here
+\end{block}
+
+\end{frame}
+
+%\begin{frame}
+%\frametitle{Contents}
+%%\tableofcontents[pausesections]
+%\end{frame}
+
+\section{Who am I}
+\include{01-WHOAMI/01-WHOIAM}
+
+\section{Current Research}
+\include{./02-CurrentResearch/0201}
+\include{./02-CurrentResearch/0202}
+\include{./02-CurrentResearch/0203}
+
 \end{document}
