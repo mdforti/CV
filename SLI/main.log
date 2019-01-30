@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/TeX Live for SUSE Linux) (preloaded format=pdflatex 2018.12.6)  30 JAN 2019 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/TeX Live for SUSE Linux) (preloaded format=pdflatex 2018.12.6)  30 JAN 2019 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,12 +668,12 @@ LaTeX Font Info:    ... okay on input line 43.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
-* \paperwidth=364.19536pt
-* \paperheight=273.14662pt
-* \textwidth=307.28987pt
-* \textheight=244.6939pt
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=398.3386pt
+* \textheight=227.62207pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
@@ -826,9 +826,9 @@ File: presentation/IMG_20180922_120515771.jpg Graphic file (type jpg)
 <use presentation/IMG_20180922_120515771.jpg>
 Package pdftex.def Info: presentation/IMG_20180922_120515771.jpg used on input 
 line 23.
-(pdftex.def)             Requested size: 101.40724pt x 180.24326pt.
+(pdftex.def)             Requested size: 131.4538pt x 233.68497pt.
 
-Overfull \hbox (9.21935pt too wide) in paragraph at lines 23--23
+Overfull \hbox (11.951pt too wide) in paragraph at lines 23--23
 [][]  
  []
 
@@ -856,6 +856,9 @@ File: ./presentation/logo-isabt25.png Graphic file (type png)
 Package pdftex.def Info: ./presentation/logo-isabt25.png used on input line 23.
 
 (pdftex.def)             Requested size: 93.57654pt x 28.45274pt.
+
+Overfull \vbox (23.01958pt too high) detected at line 23
+ []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
@@ -896,7 +899,7 @@ hic file (type png)
 <use /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/coverage.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
 h/coverage.png used on input line 40.
-(pdftex.def)             Requested size: 92.1879pt x 51.63435pt.
+(pdftex.def)             Requested size: 119.50279pt x 66.9337pt.
 
 </home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/SurfaceEnergies.png, i
 d=194, 483.30562pt x 232.61906pt>
@@ -907,9 +910,9 @@ ng Graphic file (type png)
 g>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
 h/SurfaceEnergies.png used on input line 40.
-(pdftex.def)             Requested size: 215.10196pt x 103.53111pt.
+(pdftex.def)             Requested size: 278.83578pt x 134.20924pt.
 
-Overfull \vbox (20.69666pt too high) detected at line 40
+Overfull \vbox (54.8466pt too high) detected at line 40
  []
 
 [6
@@ -927,7 +930,7 @@ raphic file (type png)
 <use /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/Alloys-AIMD.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
 h/Alloys-AIMD.png used on input line 40.
-(pdftex.def)             Requested size: 184.3758pt x 51.87363pt.
+(pdftex.def)             Requested size: 239.00558pt x 67.24466pt.
 
 <./02-CurrentResearch/HydrogenMeanFreePaths.png, id=223, 426.51147pt x 251.1678
 6pt>
@@ -935,14 +938,19 @@ File: ./02-CurrentResearch/HydrogenMeanFreePaths.png Graphic file (type png)
  <use ./02-CurrentResearch/HydrogenMeanFreePaths.png>
 Package pdftex.def Info: ./02-CurrentResearch/HydrogenMeanFreePaths.png used on
  input line 40.
-(pdftex.def)             Requested size: 122.91406pt x 72.38074pt.
- [7
+(pdftex.def)             Requested size: 159.333pt x 93.83128pt.
+
+Overfull \vbox (2.9978pt too high) detected at line 40
+ []
+
+[7
 
  </home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/Alloys-AIMD.png (PNG 
 copy)> <./02-CurrentResearch/HydrogenMeanFreePaths.png>])
 \openout2 = `./02-CurrentResearch/0203.aux'.
 
- (./02-CurrentResearch/0203.tex
+
+(./02-CurrentResearch/0203.tex
 </home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/Adhesion_Scheme.png, i
 d=250, 641.66283pt x 142.17049pt>
 File: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/Adhesion_Scheme.p
@@ -951,8 +959,13 @@ ng Graphic file (type png)
 <use /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/Adhesion_Scheme.pn
 g>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
-h/Adhesion_Scheme.png used on input line 61.
-(pdftex.def)             Requested size: 307.28987pt x 68.08485pt.
+h/Adhesion_Scheme.png used on input line 54.
+(pdftex.def)             Requested size: 327.78221pt x 72.62317pt.
+
+Overfull \hbox (200.97516pt too wide) in paragraph at lines 54--54
+[] 
+ []
+
 
 </home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T1.png, id=251, 201.40
 82pt x 142.17049pt>
@@ -961,8 +974,13 @@ le (type png)
 
 <use /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T1.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
-h/T1.png used on input line 61.
-(pdftex.def)             Requested size: 120.92882pt x 85.35826pt.
+h/T1.png used on input line 54.
+(pdftex.def)             Requested size: 137.17703pt x 96.82843pt.
+
+Overfull \hbox (17.67424pt too wide) in paragraph at lines 54--54
+ [] 
+ []
+
 
 </home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T2.png, id=252, 179.60
 872pt x 142.17049pt>
@@ -971,9 +989,14 @@ le (type png)
 
 <use /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T2.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
-h/T2.png used on input line 61.
-(pdftex.def)             Requested size: 107.84004pt x 85.35826pt.
- [8
+h/T2.png used on input line 54.
+(pdftex.def)             Requested size: 122.32962pt x 96.82843pt.
+
+Overfull \hbox (2.82683pt too wide) in paragraph at lines 54--54
+ [] 
+ []
+
+[8
 
 
 
@@ -984,28 +1007,43 @@ ng Graphic file (type png)
 <use /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/Adhesion_Scheme.pn
 g>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
-h/Adhesion_Scheme.png used on input line 61.
-(pdftex.def)             Requested size: 307.28987pt x 68.08485pt.
+h/Adhesion_Scheme.png used on input line 54.
+(pdftex.def)             Requested size: 327.78221pt x 72.62317pt.
+
+Overfull \hbox (200.97516pt too wide) in paragraph at lines 54--54
+[] 
+ []
+
 File: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T1.png Graphic fi
 le (type png)
- <use /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T1.png>
+<use /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T1.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
-h/T1.png used on input line 61.
-(pdftex.def)             Requested size: 120.92882pt x 85.35826pt.
+h/T1.png used on input line 54.
+(pdftex.def)             Requested size: 137.17703pt x 96.82843pt.
+
+Overfull \hbox (17.67424pt too wide) in paragraph at lines 54--54
+ [] 
+ []
+
 File: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T2.png Graphic fi
 le (type png)
-
 <use /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T2.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
-h/T2.png used on input line 61.
-(pdftex.def)             Requested size: 107.84004pt x 85.35826pt.
- [9
+h/T2.png used on input line 54.
+(pdftex.def)             Requested size: 122.32962pt x 96.82843pt.
+
+Overfull \hbox (2.82683pt too wide) in paragraph at lines 54--54
+ [] 
+ []
+
+[9
 
  </home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T1.png> </home/marian
 o/CuadernoTrabajo/CV/SLI/02-CurrentResearch/T2.png>])
 \openout2 = `./02-CurrentResearch/0204.aux'.
 
- (./02-CurrentResearch/0204.tex
+
+(./02-CurrentResearch/0204.tex
 </home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/PointDefectThermodynam
 ics.png, id=311, 478.87761pt x 142.17049pt>
 File: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearch/PointDefectThermo
@@ -1015,7 +1053,7 @@ dynamics.png Graphic file (type png)
 ynamics.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/02-CurrentResearc
 h/PointDefectThermodynamics.png used on input line 18.
-(pdftex.def)             Requested size: 307.28987pt x 91.22742pt.
+(pdftex.def)             Requested size: 398.3386pt x 118.25961pt.
  [10
 
 
@@ -1035,7 +1073,7 @@ e png)
  <use /home/mariano/CuadernoTrabajo/CV/SLI/03-Teaching/01.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/03-Teaching/01.pn
 g used on input line 25.
-(pdftex.def)             Requested size: 153.6519pt x 129.58577pt.
+(pdftex.def)             Requested size: 199.17715pt x 121.04071pt.
 
 </home/mariano/CuadernoTrabajo/CV/SLI/03-Teaching/3.png, id=366, 246.1919pt x 1
 42.17049pt>
@@ -1044,7 +1082,7 @@ File: /home/mariano/CuadernoTrabajo/CV/SLI/03-Teaching/3.png Graphic file (type
  <use /home/mariano/CuadernoTrabajo/CV/SLI/03-Teaching/3.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/03-Teaching/3.png
  used on input line 25.
-(pdftex.def)             Requested size: 134.63208pt x 77.74477pt.
+(pdftex.def)             Requested size: 125.7628pt x 72.62317pt.
 
 </home/mariano/CuadernoTrabajo/CV/SLI/03-Teaching/02.png, id=367, 191.45627pt x
  142.17049pt>
@@ -1053,9 +1091,9 @@ e png)
  <use /home/mariano/CuadernoTrabajo/CV/SLI/03-Teaching/02.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/03-Teaching/02.pn
 g used on input line 25.
-(pdftex.def)             Requested size: 153.64432pt x 129.58577pt.
+(pdftex.def)             Requested size: 199.17116pt x 121.04071pt.
 
-Overfull \vbox (4.19333pt too high) detected at line 25
+Overfull \vbox (7.5985pt too high) detected at line 25
  []
 
 [12
@@ -1078,7 +1116,7 @@ file (type png)
 <use /home/mariano/CuadernoTrabajo/CV/SLI/04-OtherSkills/Workflow.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/04-OtherSkills/Wo
 rkflow.png used on input line 33.
-(pdftex.def)             Requested size: 184.3758pt x 100.38664pt.
+(pdftex.def)             Requested size: 239.00558pt x 130.1317pt.
  [14
 
 
@@ -1095,7 +1133,7 @@ raphic file (type jpg)
 <use /home/mariano/CuadernoTrabajo/CV/SLI/04-OtherSkills/20150406_143836.jpg>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/04-OtherSkills/20
 150406_143836.jpg used on input line 18.
-(pdftex.def)             Requested size: 92.1879pt x 113.46194pt.
+(pdftex.def)             Requested size: 119.50279pt x 147.07927pt.
 
 [15
 
@@ -1117,17 +1155,17 @@ File: /home/mariano/CuadernoTrabajo/CV/SLI/05-Conclusion/kitty.png Graphic file
 <use /home/mariano/CuadernoTrabajo/CV/SLI/05-Conclusion/kitty.png>
 Package pdftex.def Info: /home/mariano/CuadernoTrabajo/CV/SLI/05-Conclusion/kit
 ty.png used on input line 14.
-(pdftex.def)             Requested size: 364.20251pt x 273.17825pt.
+(pdftex.def)             Requested size: 455.2499pt x 256.1031pt.
  [17
 
 
  </home/mariano/CuadernoTrabajo/CV/SLI/05-Conclusion/kitty.png>]
-Overfull \hbox (0.30899pt too wide) in paragraph at lines 23--23
+Overfull \hbox (0.40027pt too wide) in paragraph at lines 23--23
  [] 
  []
 
 
-Overfull \vbox (5.31595pt too high) detected at line 23
+Overfull \vbox (8.72144pt too high) detected at line 23
  []
 
 [18
@@ -1160,13 +1198,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 17697 strings out of 494035
- 334346 string characters out of 6158521
- 429414 words of memory out of 5000000
- 20551 multiletter control sequences out of 15000+600000
+ 17698 strings out of 494035
+ 334367 string characters out of 6158521
+ 429420 words of memory out of 5000000
+ 20552 multiletter control sequences out of 15000+600000
  16007 words of font info for 60 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
- 48i,16n,51p,790b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,20n,51p,790b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public
 /amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmss10.
@@ -1176,7 +1214,7 @@ ic/amsfonts/cm/cmss8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmssi
 10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/
 texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (18 pages, 5337096 bytes).
+Output written on main.pdf (18 pages, 5337011 bytes).
 PDF statistics:
  604 PDF objects out of 1000 (max. 8388607)
  542 compressed objects within 6 object streams
