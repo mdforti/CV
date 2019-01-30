@@ -1,0 +1,64 @@
+\documentclass{beamer}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{xcolor}
+\setlength{\parindent}{0cm}
+\setbeamercolor{whitebox}{fg=black,bg=white}
+\setbeamercolor{frametitle}{fg=white,bg=black}
+\setbeamercolor{section}{fg=white,bg=violet}
+\usetheme{default}
+
+\useinnertheme{rectangles}
+\usecolortheme{dove}
+\mode<presentation>
+
+\AtBeginSection[]{
+\begin{frame}
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}\insertsectionhead\par%
+\end{beamercolorbox}
+\vfill
+\end{frame}
+}
+
+\title{An Outline of My Activities}
+\author{Mariano Forti}
+\date{2019}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\begin{center}
+  Interview details here
+\end{center}
+
+\end{frame}
+
+%\begin{frame}
+%\frametitle{Contents}
+%%\tableofcontents[pausesections]
+%\end{frame}
+
+\section{Who am I}
+\include{01-WHOAMI/01-WHOIAM}
+
+\section{Current Research}
+\include{./02-CurrentResearch/0201}
+\include{./02-CurrentResearch/0202}
+\include{./02-CurrentResearch/0203}
+\include{./02-CurrentResearch/0204}
+
+\section{Teaching}
+\include{./03-Teaching/0301}
+
+\section{Other Skills}
+\include{./04-OtherSkills/0401}
+\include{./04-OtherSkills/0402}
+
+\section{Conclusions}
+\include{./05-Conclusion/0501}
+
+\end{document}
