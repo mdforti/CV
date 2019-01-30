@@ -1,26 +1,39 @@
-\documentclass{beamer}
+\documentclass[xcolor={dvipsnames,x11names,svgnames}]{beamer}
 \usepackage{amsmath}
 \usepackage{graphics}
-\usepackage{xcolor}
 \setlength{\parindent}{0cm}
 \setbeamercolor{whitebox}{fg=black,bg=white}
-\setbeamercolor{frametitle}{fg=white,bg=black}
-\setbeamercolor{section}{fg=white,bg=violet}
-\usetheme{default}
-
+\setbeamercolor{sectionbox}{fg=white,bg=violet}
+\setbeamercolor{frametitle}{fg=white,bg=DarkOliveGreen}
+\setbeamercolor{sectiontitle}{fg=white,bg=violet}
+\setbeamercolor{structure1}{fg=black,bg=gray}
+\setbeamercolor{structure2}{fg=black,bg=lightgray}
+\usetheme{boxes}
+\addheadbox{structure1}{
+    \quad \tiny  \insertauthor \quad \insertdate
+} 
+\addheadbox{structure2}{\quad \tiny \insertsection}
 \useinnertheme{rectangles}
 \usecolortheme{dove}
 \mode<presentation>
+\setbeamertemplate{section page}
+{
+  \begin{beamercolorbox}[ht=5ex,dp=1ex,wd=\textwidth,center]{sectionbox}
+    \begin{centering}
+      \usebeamerfont{section  title} \insertsection 
+    \end{centering}
+  \end{beamercolorbox}
 
+}
 \AtBeginSection[]{
-\begin{frame}
-\vfill
-\centering
-\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
-\usebeamerfont{title}\insertsectionhead\par%
-\end{beamercolorbox}
-\vfill
-\end{frame}
+  \begin{frame}[plain]
+    \begin{center}
+    \tiny \insertauthor \quad \insertdate 
+    \end{center}
+
+    \sectionpage
+
+  \end{frame}
 }
 
 \title{An Outline of My Activities}
@@ -29,7 +42,7 @@
 
 \begin{document}
 
-\begin{frame}
+\begin{frame}[plain]
 \titlepage
 \begin{center}
   Interview details here
