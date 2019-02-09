@@ -4,7 +4,8 @@ INCLUDES=SECTIONS/Advisories.tex  SECTIONS/Awards.tex  SECTIONS/Education.tex  \
 	 SECTIONS/Profesional_Experience.tex  SECTIONS/Publications.tex  \
 	 SECTIONS/titlepage.tex  
 main:  main.tex my_cv.cls  ${INCLUDES} 
-	pdflatex main.tex #> /dev/null 
+	pdflatex main.tex 
+	pdflatex main.tex 
 
 clean: 
 	rm *.aux *.log *.out

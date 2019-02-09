@@ -1,0 +1,77 @@
+\documentclass[xcolor={dvipsnames,x11names,svgnames},aspectratio=169]{beamer}
+\usepackage{amsmath}
+\usepackage{graphics}
+\setlength{\parindent}{0cm}
+\setbeamercolor{whitebox}{fg=black,bg=white}
+\setbeamercolor{sectionbox}{fg=white,bg=violet}
+\setbeamercolor{frametitle}{fg=white,bg=DarkOliveGreen}
+\setbeamercolor{sectiontitle}{fg=white,bg=violet}
+\setbeamercolor{structure1}{fg=black,bg=gray}
+\setbeamercolor{structure2}{fg=black,bg=lightgray}
+\usetheme{boxes}
+\addheadbox{structure1}{
+    \quad \tiny  \insertauthor \quad \insertdate
+} 
+\addheadbox{structure2}{\quad \tiny \insertsection}
+\useinnertheme{rectangles}
+\usecolortheme{dove}
+\mode<presentation>
+\setbeamertemplate{section page}
+{
+  \begin{beamercolorbox}[ht=5ex,dp=1ex,wd=\textwidth,center]{sectionbox}
+    \begin{centering}
+      \usebeamerfont{section  title} \insertsection 
+    \end{centering}
+  \end{beamercolorbox}
+
+}
+\AtBeginSection[]{
+  \begin{frame}[plain]
+    \begin{center}
+    \tiny \insertauthor \quad \insertdate 
+    \end{center}
+
+    \sectionpage
+
+  \end{frame}
+}
+
+\title{An Outline of My Activities}
+\author{Mariano Forti}
+\date{2019}
+
+\begin{document}
+
+\begin{frame}[plain]
+\titlepage
+\begin{center}
+  Interview details here
+\end{center}
+
+\end{frame}
+
+%\begin{frame}
+%\frametitle{Contents}
+%%\tableofcontents[pausesections]
+%\end{frame}
+
+\section{Who am I}
+\include{01-WHOAMI/01-WHOIAM}
+
+\section{Current Research}
+\include{./02-CurrentResearch/0201}
+\include{./02-CurrentResearch/0202}
+\include{./02-CurrentResearch/0203}
+\include{./02-CurrentResearch/0204}
+
+\section{Teaching}
+\include{./03-Teaching/0301}
+
+\section{Other Skills}
+\include{./04-OtherSkills/0401}
+\include{./04-OtherSkills/0402}
+
+\section{Conclusions}
+\include{./05-Conclusion/0501}
+
+\end{document}
