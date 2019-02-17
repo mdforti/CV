@@ -4,6 +4,7 @@
 
 % indent all the paragraphs.
 \RequirePackage{indentfirst}
+\RequirePackage{graphicx}
 
 % allow to modify te section titles
 \RequirePackage[dvipsnames]{xcolor}
@@ -61,6 +62,4 @@
 \urlstyle{same}
 
 \usepackage[utf8]{inputenc}
-
 %\RequirePackage{titling}
-%\pretitle{\scshape}
