@@ -20,5 +20,8 @@ brief:  brief.tex my_cv.cls  ${INCLUDES}
 all: brief main
 
 clean: 
-	rm *.aux *.log *.out
+	find -iname \*.aux \
+	  -o -iname \*.log \
+	  -o -iname \*.out \
+	 | xargs rm
 

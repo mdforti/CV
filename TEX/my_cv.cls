@@ -2,6 +2,9 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{my_cv}[2018/11/18 My custom CV class]
 
+%\RequirePackage[cbgreek]{textgreek}
+\RequirePackage{fixltx2e}
+
 % indent all the paragraphs.
 \RequirePackage{indentfirst}
 \RequirePackage{graphicx}
