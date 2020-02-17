@@ -51,17 +51,17 @@
 \def\UrlBreaks{\do\/\do-}
 \hypersetup{
     pdftitle={Resume},
-        pdfauthor={Mariano Forti},
-	    pdfsubject={Mariano Forti Curriculum Vitae},
-	        pdfkeywords={Mariano Forti, Researcher, DFT, FEM, linux, programmer},
-		    bookmarksnumbered=false,     
-		        bookmarksopen=true,         
-			    bookmarksopenlevel=1,       
-			        colorlinks=false,            
-				    pdfstartview=Fit,           
-				        pdfpagemode=UseOutlines,    % this is the option you were lookin for
-					    pdfpagelayout=TwoPageRight
-					  }
+    pdfauthor={Mariano Forti},
+    pdfsubject={Mariano Forti Curriculum Vitae},
+    pdfkeywords={Mariano Forti, Researcher, DFT, FEM, linux, programmer},
+    bookmarksnumbered=false,     
+    bookmarksopen=true,         
+    bookmarksopenlevel=1,       
+    colorlinks=false,            
+    pdfstartview=Fit,           
+    pdfpagemode=UseOutlines,    % this is the option you were lookin for
+    pdfpagelayout=TwoPageRight
+  }
 \urlstyle{same}
 
 \usepackage[utf8]{inputenc}
