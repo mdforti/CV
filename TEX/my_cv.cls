@@ -1,4 +1,5 @@
 \LoadClass[12pt,a4paper]{article}
+\sloppy
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{my_cv}[2018/11/18 My custom CV class]
 
@@ -46,7 +47,7 @@
 \renewcommand{\abstractnamefont}{\normalfont\scshape}
 
 
-\RequirePackage[hidelinks,breaklinks]{hyperref}
+\RequirePackage[hidelinks]{hyperref}
 \RequirePackage[hyphenbreaks]{breakurl}
 \def\UrlBreaks{\do\/\do-}
 \hypersetup{
