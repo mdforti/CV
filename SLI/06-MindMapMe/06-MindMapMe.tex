@@ -1,0 +1,53 @@
+\begin{tikzpicture}[
+    root concept/.append style={concept color=white!70, color=white, minimum size=3 cm},
+    level 1 concept/.append style={
+      every child/.style={ concept color=SeaGreen}, color=white, minimum size=1cm, sibling distance=100
+    },
+    level 2 concept/.append style={
+      every child/.style={concept color=LightSteelBlue}, color=Black, minimum size=1cm, sibling distance=50
+    },
+    shortd/.style={level distance = 2.5cm},
+    nolevel/.style={concept color=white!100, level distance=2cm},
+    mindmap, 
+  ]
+
+\node [concept] { 
+  \includegraphics[width=\textwidth]{../../Yo_transparency.png} 
+  } 
+     child[grow= 0] { node[concept] {coding} [counterclockwise from=-120 ]
+					child { node[concept] {VIM}  }
+					child { node[concept] {git}  }
+					child { node[concept] {Bash}  }
+					} 
+     child[grow=40, level distance = 7cm] { node[concept] {reading} [clockwise from=10]
+					child[shortd] { node[concept] {Harry Potter}  }
+					child[shortd] { node[concept] {Asimov's Robots - Foundation}  }
+					child[shortd] { node[concept] {The Hithicker Guide}  }
+					child[shortd] { node[concept] {LOR / TH}  }
+					child[shortd] { node[concept] {Alicia}  }
+					child[shortd] { node[concept] {Neverending Story}  }
+					}
+     child[grow=80] { node[concept] {travel} }
+     child[grow=120] { node[concept] {sports} [counterclockwise from=60 ]
+                                       child {node[concept] {Run} }
+                                       child {node[concept] {Bike} }
+                                       child {node[concept] {Hike} }
+				       }
+     child[grow=160] { node[concept] {cook (food)} 
+				       child {node[concept] {bread \& Pizza} }
+				       }
+     child[grow=200] { node[concept] {Family} [counterclockwise from=160]
+				       child {node[concept] {kid 1} }
+				       child {node[concept] {kid 2} }
+				       child {node[concept] {the mother of both} }
+				       };
+
+     \node[rotate=-30] at (-1,-2) {\includegraphics[width=1cm]{../../800px-Flag_of_Argentina.png}} ;
+     \node[rotate=30] at (1,-2) {\includegraphics[width=1cm]{../../mate.png}} ;
+%     
+%
+
+%
+%
+\end{tikzpicture}
+
