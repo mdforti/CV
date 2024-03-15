@@ -42,7 +42,7 @@
 
 % modify abstract properties
 \RequirePackage{abstract}
-\renewcommand{\abstractname}{Introduction}
+\renewcommand{\abstractname}{Summary}
 \renewcommand{\abstractnamefont}{\normalfont\scshape}
 
 

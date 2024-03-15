@@ -1,16 +1,20 @@
 %{main}
 \documentclass{my_cv}
-\title{\scshape Mariano Daniel Forti
+\usepackage{tikz}
+\title{{\scshape Mariano Daniel Forti}
 \raisebox{-.5\height}{
 \includegraphics[width=0.2\textwidth]{/home/mariano/CuadernoTrabajo/CV/Yo.jpg}
 }
+
 }
-\date{\centering \small{Contact: \hspace{3cm} \url{mforti@cnea.gov.ar} \hspace{3cm} \url{marianodforti@gmail.com}}}
+\date{\centering \small{Contact: \hspace{3cm} \url{mariano.forti@icams.rub.de} \hspace{3cm} \url{marianodforti@gmail.com}}}
 
 
 
 \begin{document}
 \maketitle
+
+\tikz[overlay]\node at (6.5cm, 4.5cm) {\small {Materials scientist}}; 
 
 \input{SECTIONS/titlepage}
 \input{SECTIONS/Profesional_Experience}
