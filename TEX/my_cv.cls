@@ -19,7 +19,7 @@
   {}
   {0pt}
   {\colorsection}
-\titlespacing*{\section}{5mm}{1.5cm}{0.1cm}
+\titlespacing*{\section}{3mm}{12mm}{0.1cm}
 
 \newcommand{\colorsection}[1]{%
 \colorbox{Fuchsia}{\parbox{\dimexpr\textwidth-2\fboxsep}{\centering \strut { #1}}}

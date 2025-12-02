@@ -9,9 +9,11 @@ BRIEFINCLUDES=BRIEFSECTIONS/Advisories.tex  BRIEFSECTIONS/Awards.tex  BRIEFSECTI
 	 BRIEFSECTIONS/Profesional_Experience.tex  BRIEFSECTIONS/Publications.tex  \
 	 BRIEFSECTIONS/titlepage.tex  
 
-main:  main.tex my_cv.cls  ${INCLUDES} 
+main.pdf:  main.aux #my_cv.cls  ${INCLUDES} 
 	pdflatex main.tex 
-	pdflatex main.tex 
+
+main.aux: main.tex my_cv.cls ${INCLUDES}
+	pdflatex main.tex
 
 brief:  brief.tex my_cv.cls  ${INCLUDES} 
 	pdflatex brief.tex 
