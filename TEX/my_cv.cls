@@ -60,7 +60,7 @@
     colorlinks=false,            
     pdfstartview=Fit,           
     pdfpagemode=UseOutlines,    % this is the option you were lookin for
-    pdfpagelayout=TwoPageRight
+    %pdfpagelayout=TwoPageRight
   }
 \urlstyle{same}
 
