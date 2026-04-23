@@ -20,7 +20,7 @@
   {}
   {0pt}
   {\colorsection}
-\titlespacing*{\section}{5mm}{1.5cm}{0.1cm}
+\titlespacing*{\section}{3mm}{12mm}{0.1cm}
 
 \newcommand{\colorsection}[1]{%
 \colorbox{Fuchsia}{\parbox{\dimexpr\textwidth-2\fboxsep}{\centering \strut { #1}}}
@@ -43,7 +43,7 @@
 
 % modify abstract properties
 \RequirePackage{abstract}
-\renewcommand{\abstractname}{Introduction}
+\renewcommand{\abstractname}{Summary}
 \renewcommand{\abstractnamefont}{\normalfont\scshape}
 
 
@@ -61,7 +61,7 @@
     colorlinks=false,            
     pdfstartview=Fit,           
     pdfpagemode=UseOutlines,    % this is the option you were lookin for
-    pdfpagelayout=TwoPageRight
+    %pdfpagelayout=TwoPageRight
   }
 \urlstyle{same}
 

@@ -1,14 +1,22 @@
 %{main}
 \documentclass{my_cv}
-\title{\scshape Mariano Daniel Forti
-\raisebox{-.5\height}{
-\includegraphics[width=0.2\textwidth]{/home/mariano/CuadernoTrabajo/CV/Yo.jpg}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{qrcode}
+\usepackage{multicol}
+\title{
+{\vspace{-2cm} \scshape Mariano Daniel Forti}
+\raisebox{-.5\height}{\includegraphics[width=0.2\textwidth]{../Yo.jpg}
 }
+
+\tikz[overlay]\node at (-1.5, 1.25cm) {\small {Materials scientist}}; 
+
 }
-\date{\centering \small{Contact: \hfill
-\href{mailto:mariano.forti@icams.rub.de}{mariano.forti@icams.rub.de} \hfill
-\href{mailto:mforti@cnea.gov.ar}{mforti@cnea.gov.ar}\hfill
-\href{mailto:marianodforti@gmail.com}{marianodforti@gmail.com}  }}
+
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
+
+\date{ \vspace{-1.5cm} \centering \small{Contact: \hspace{3cm} \url{mariano.forti@icams.rub.de} \hspace{3cm} \url{marianodforti@gmail.com}}}
 
 
 
@@ -16,10 +24,10 @@
 \maketitle
 
 \input{SECTIONS/titlepage}
-\input{SECTIONS/Profesional_Experience}
 \input{SECTIONS/Publications}
-\input{SECTIONS/Participation_in_Congress}
+\input{SECTIONS/Profesional_Experience}
 \input{SECTIONS/Participation_in_research_projects}
+\input{SECTIONS/Participation_in_Congress}
 \input{SECTIONS/Advisories}
 \input{SECTIONS/Education}
 \input{SECTIONS/Awards}
